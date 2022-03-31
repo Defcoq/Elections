@@ -1,0 +1,80 @@
+{
+  "_from": "ethereum-checksum-address",
+  "_id": "ethereum-checksum-address@0.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-n7m16IjUmbv03QKwHF77lKWyx538f0ICjgHGd2g31BESgBqdxVmilb45uJj26ARVsA8/gZZO/yK5fPJJF/i4Ug==",
+  "_location": "/ethereum-checksum-address",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ethereum-checksum-address",
+    "name": "ethereum-checksum-address",
+    "escapedName": "ethereum-checksum-address",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ethereum-checksum-address/-/ethereum-checksum-address-0.0.8.tgz",
+  "_shasum": "6767832eaa4ae9c59fe8572d4dde9577231996cc",
+  "_spec": "ethereum-checksum-address",
+  "_where": "C:\\Workspace\\Repo\\Smart Contract Solidity\\VoteElection\\Election_APP",
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com/"
+  },
+  "bin": {
+    "ethereum_checksum_address": "bin/ethereum_checksum_address",
+    "ethereum-checksum-address": "bin/ethereum_checksum_address"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelmota/ethereum-checksum-address/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "keccak": "^3.0.2",
+    "meow": "^10.1.2"
+  },
+  "deprecated": false,
+  "description": "Convert Ethereum address to a checksummed address",
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "standard": "^16.0.4",
+    "tape": "^4.10.2"
+  },
+  "homepage": "https://github.com/miguelmota/ethereum-checksum-address",
+  "keywords": [
+    "ethereum",
+    "checksum",
+    "address",
+    "check",
+    "converter",
+    "verify",
+    "verification",
+    "validation",
+    "hashing",
+    "normalize",
+    "cli"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/ethereum-checksum-address/blob/master/LICENSE"
+  },
+  "main": "index.js",
+  "name": "ethereum-checksum-address",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelmota/ethereum-checksum-address.git"
+  },
+  "scripts": {
+    "build:example": "browserify example/main.js -o example/dist/bundle.js",
+    "lint": "standard --fix index.js test/test.js example/example.js",
+    "test": "tape test/*.js"
+  },
+  "version": "0.0.8"
+}

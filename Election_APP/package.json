@@ -9,6 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "@truffle/contract": "^4.5.2",
+    "ethereum-checksum-address": "0.0.8",
+    "express": "^4.16.4",
+    "to-checksum-address": "^1.0.0",
+    "web3": "^1.7.1",
+    "web3-utils": "^1.7.1"
   }
 }
